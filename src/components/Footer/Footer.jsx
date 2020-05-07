@@ -34,7 +34,9 @@ const Footer = () => {
             })}
         </div>
         <hr />
-        <p className="footer__text">Made with love</p>
+        <p className="footer__text">
+          Made with love by <b> Rohan Punjani </b>{' '}
+        </p>
 
         {isEnabled && <GithubButtons />}
       </Container>
