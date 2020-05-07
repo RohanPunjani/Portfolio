@@ -17,13 +17,13 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'rohan.jpg',
   paragraphOne:
-    'Rohan Punjani is a second-year engineering student studying at Ramrao Adik Institute of Technology, Navi Mumbai. His passion is to design/code difficult problems into a beautifully simple solution.',
+    'I am a second-year engineering student studying at Ramrao Adik Institute of Technology, Navi Mumbai. My passion is to design/code difficult problems into a beautifully simple solutions.',
   paragraphTwo:
-    'He has worked under the bucket of Image Processing and Full Stack Development and is also a competitive programmer. He spends most of his college time working on different projects for the college or upcoming competitions.',
+    'I have worked under the bucket of Image Processing and Full Stack Development and am also a competitive programmer. I spend most of my college time working on different projects for the college or upcoming competitions.',
   paragraphThree:
-    'Along with academics, he was also a leading member of the cultural committee of his Junior college.',
+    'Along with academics, I was also a leading member of the cultural committee of my Junior college.',
   resume: 'RESUME.pdf', // if no resume, the button will not show up
 };
 
