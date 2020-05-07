@@ -18,9 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    'Rohan Punjani is a second-year engineering student studying at Ramrao Adik Institute of Technology, Navi Mumbai. His passion is to design/code difficult problems into a beautifully simple solution.',
+  paragraphTwo:
+    'He has worked under the bucket of Image Processing and Full Stack Development and is also a competitive programmer. He spends most of his college time working on different projects for the college or upcoming competitions.',
+  paragraphThree:
+    'Along with academics, he was also a leading member of the cultural committee of his Junior college.',
   resume: 'RESUME.pdf', // if no resume, the button will not show up
 };
 
@@ -28,31 +31,38 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'bloggit.jpg',
+    title: 'Bloggit',
+    info:
+      'Bloggit is a blog editor that helps you to write blogs and compile your thoughts without messing with your thought flow.',
     info2: '',
+    livetext: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/RohanPunjani/Bloggit', // if no repo, the button will not show up
   },
-  // {
-  //   id: uuidv1(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
-  // {
-  //   id: uuidv1(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
+  {
+    id: uuidv1(),
+    img: 'feedly1.jpg',
+    title: 'Feedly',
+    info:
+      'A social awareness web application that lets you know of what exactly is going around, based on your interests.',
+    info2: '',
+    livetext: 'Check Article',
+    url: 'https://www.linkedin.com/pulse/feedly-rohan-punjani/',
+    repo: 'https://github.com/RohanPunjani/feedly-1.1', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'Capture.JPG',
+    title: 'CroCon',
+    info:
+      'CroCon is a crowd detection software which notifies you about the condition of any place by using Face Recognition techniques.',
+    info2: '',
+    livetext: 'Check Document',
+    url:
+      'https://docs.google.com/presentation/d/1cPv51WEZHcV8_RiuMUdxsU-85BIky8bTAqX_dF0v01w/edit?usp=sharing',
+    repo: 'https://github.com/RohanPunjani/CroCon', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
