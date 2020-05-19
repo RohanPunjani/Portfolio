@@ -37,7 +37,7 @@ export const projectsData = [
       'Bloggit is a blog editor that helps you to write blogs and compile your thoughts without messing with your thought flow.',
     info2: '',
     livetext: '',
-    url: 'bloggit-app1.herokuapp.com/',
+    url: 'https://bloggit-app1.herokuapp.com/',
     repo: 'https://github.com/RohanPunjani/Bloggit', // if no repo, the button will not show up
   },
   {
