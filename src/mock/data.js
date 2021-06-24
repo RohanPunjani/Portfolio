@@ -8,27 +8,36 @@ export const headData = {
 };
 
 // HERO DATA
-export const heroData = {
-  title: '',
-  name: 'Rohan Punjani',
-  subtitle: "I'm a Designer & Full Stack Developer ",
-  cta: '',
-};
+// export const heroData = {
+//   title: '',
+//   name: 'Rohan Punjani',
+//   subtitle: "I'm a Designer & Full Stack Developer ",
+//   cta: '',
+// };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'rohan.jpg',
   paragraphOne:
-    'I am a third-year engineering student studying at Ramrao Adik Institute of Technology, Navi Mumbai. My passion is to design/code difficult problems into a beautifully simple solutions.',
+    'Rohan Punjani is a third-year engineering student studying at Ramrao Adik Institute of Technology, Navi Mumbai. His passion is to design/code seemingly challenging problems into beautifully simple solutions.',
   paragraphTwo:
-    'I have worked under the bucket of Image Processing and Full Stack Development and am also a competitive programmer. I spend most of my college time working on different projects for the college or upcoming competitions.',
-  paragraphThree:
-    'Along with academics, I was also a leading member of the cultural committee of my Junior college.',
-  resume: 'RESUME_2.pdf', // if no resume, the button will not show up
+    'He has worked under the bucket of Image Processing and Full Stack Development and is also a competitive programmer. He spends most of his college time either working on different projects for the college or participating in upcoming competitions.',
+  resume: 'RESUME.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: uuidv1(),
+    img: 'colors.png',
+    title: 'Colors',
+    info:
+      'Colors is a quick frontend Dashboard made using ReactJS. This is an example of a desing implementation where the design was taken from dribbble.com',
+    info2: '',
+    livetext: 'See Live',
+    url: 'https://dashboard-colors.netlify.app',
+    repo: 'https://github.com/RohanPunjani/colors', // if no repo, the button will not show up
+  },
   {
     id: uuidv1(),
     img: 'grillax.png',
@@ -42,14 +51,15 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'bloggit.png',
-    title: 'Bloggit',
+    img: 'apriori.png',
+    title: 'Apriori Data Visualization',
     info:
-      'Bloggit is a blog editor that helps you to write blogs and compile your thoughts without messing with your thought flow.',
+      'Another Dashboard for data visualization based on flask Api where the data is fetched and seen on the ReactJS dashboard with dynamic rendering',
     info2: '',
-    livetext: 'See Live',
-    url: 'https://bloggit-app1.herokuapp.com',
-    repo: 'https://github.com/RohanPunjani/Bloggit', // if no repo, the button will not show up
+    livetext: 'Source Code',
+    url: 'https://github.com/RohanPunjani/AprioriDataVisualization', // if no repo, the button will not show up
+    // url: 'http://grillax.dev-rohan.com',
+    // repo: 'https://github.com/RohanPunjani/Grillax', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -89,12 +99,12 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/rohan-punjani-5175a9163/',
+      url: 'https://www.linkedin.com/in/rohanpunjani/',
     },
     {
       id: uuidv1(),
       name: 'instagram',
-      url: 'https://www.instagram.com/rohan__punjani/',
+      url: 'https://www.instagram.com/punjani.rohan/',
     },
     {
       id: uuidv1(),
